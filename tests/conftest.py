@@ -73,4 +73,4 @@ def movie_dao():
     movie_dao.update = MagicMock()
     movie_dao.delete = MagicMock()
 
-    return genre_dao
+    return movie_dao
